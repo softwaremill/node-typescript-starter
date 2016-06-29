@@ -5,7 +5,7 @@
   "scripts": {
     "postinstall": "typings install",
     "tsc:watch": "tsc -w",
-    "serve": "nodemon --debug ./dist/main.js",
+    "serve": "nodemon --debug --watch dist/ -d 1 ./dist/main.js",
     "debug": "node-inspector"
   },
   "author": "",
