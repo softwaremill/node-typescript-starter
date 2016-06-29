@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "noEmitOnError": false,
+        "declaration": true
+    },
+    "files": [
+        "./src/main.ts",
+        "./typings/index.d.ts"
+    ]
+}
