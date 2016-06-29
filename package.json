@@ -10,7 +10,9 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^2.0.0"
+  },
   "devDependencies": {
     "node-inspector": "^0.12.8",
     "nodemon": "^1.9.2",
