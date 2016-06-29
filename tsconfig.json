@@ -6,7 +6,7 @@
         "noImplicitAny": false,
         "sourceMap": true,
         "outDir": "./dist",
-        "noEmitOnError": false,
+        "noEmitOnError": true,
         "declaration": true
     },
     "files": [
