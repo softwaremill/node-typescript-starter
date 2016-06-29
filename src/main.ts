@@ -1,7 +1,6 @@
 'use strict';
 import * as http from 'http';
-
-const PORT = 1221;
+import PORT from './config';
 
 const server = http.createServer((req, res) => {
   res.end('hello!');
