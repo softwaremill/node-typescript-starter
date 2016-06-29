@@ -1,6 +1,11 @@
 'use strict';
 import * as http from 'http';
-import PORT from './config';
+
+//Loading dotenv - it should be done as early as possible
+require("dotenv").config();
+
+const PORT = process.env.PORT;
+
 
 const server = http.createServer((req, res) => {
   res.end('hello!');
