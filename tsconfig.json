@@ -9,8 +9,8 @@
         "noEmitOnError": true,
         "declaration": true
     },
-    "files": [
-        "./src/main.ts",
-        "./typings/index.d.ts"
+    "exclude": [
+        "node_modules",
+        "dist"
     ]
 }
