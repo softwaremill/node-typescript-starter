@@ -6,12 +6,14 @@
     "postinstall": "typings install",
     "tsc:watch": "tsc -w",
     "serve": "nodemon --debug --watch dist/ -d 1 ./dist/main.js",
-    "debug": "node-inspector"
+    "debug": "node-inspector",
+    "test": "mocha dist/test"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "chai": "^3.5.0",
     "node-inspector": "^0.12.8",
     "nodemon": "^1.9.2",
     "typescript": "^1.8.10",
